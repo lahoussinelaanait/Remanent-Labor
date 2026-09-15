@@ -62,4 +62,14 @@ python 02_generate_graphs.py
 # Step 3: Run Fisher z tests and bootstrap
 python 03_fisher_z_bootstrap.py
 
+
+## Relation to the Additive Note
+
+The three scripts in this repository (`Note_build_NewPanel.py`,
+`Note_MLE_NewPanel.py`, `Note_temporality_analysis_NexPanel.py`) constitute the
+empirical apparatus of the **Additive Note** (Laanait, 2026), which
+accompanies the article *Remanent Surplus Value*. They construct the
+two-regime panel, estimate the MLE correlations and expectations by
+regime, and test the temporal signature of augmented remanent labor.
+
 Outputs are saved to results/correlations/, results/margins/, and results/figures/.
