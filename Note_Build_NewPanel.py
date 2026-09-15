@@ -21,7 +21,7 @@ drive.mount('/content/drive')
 # ============================================================
 # 1. LOAD ORIGINAL PANEL
 # ============================================================
-panel_file = "/content/drive/My Drive/Github_Remanent/panel_FINAL_REMANENT.csv"
+panel_file = "/content/drive/My Drive/panel_FINAL_REMANENT.csv"
 df = pd.read_csv(panel_file, sep=';', encoding='utf-8-sig')
 
 # Rename columns
@@ -114,7 +114,7 @@ print(df_new.groupby('regime').agg(
 # ============================================================
 # 5. SAVE
 # ============================================================
-out_dir = Path("/content/drive/My Drive/Github_Remanent/new_panel/")
+out_dir = Path("/content/drive/My Drive/new_panel/")
 out_dir.mkdir(exist_ok=True)
 
 out_file = out_dir / "panel_LONG_vs_SHORT.csv"
