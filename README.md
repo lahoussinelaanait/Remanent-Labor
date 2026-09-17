@@ -31,7 +31,7 @@ See `data/README.md` for details on exclusions.
 
 The `code/` folder contains three Python scripts. They are designed to be run in order.
 
-### `01_hierarchical_mle.py` — Hierarchical MLE model
+### `01_hierarchical_Model.py` — Hierarchical MLE model
 
 **What it does:** Estimates the hierarchical maximum likelihood model for each production regime (TECH, PHARMA, INDUS). For each variable (EBIT, Personnel, R&D, PP&E, EBIT/Revenue, and the product variables Z = X × Y), the script fits:
 
